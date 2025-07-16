@@ -233,69 +233,7 @@ const DmccFreezone = () => {
           </div>
         </div>
       </div>
-
-      <div className="tf-container">
-        <div className="wrap">
-          <div className="row align-items-end">
-            <div className="pt_90">
-              <div className="box-service style-1">
-                <div className="img-style effect-item effect-left effect-2">
-                  <img
-                    className="lazyload"
-                    data-src="/images/qb/dmcc2.jpg"
-                    alt="service"
-                    src="/images/qb/dmcc2.jpg"
-                    width={657}
-                    height={534}
-                  />
-                </div>
-                <div className="content">
-                  <div className="heading mb_25 effect-item effect-right effect-2">
-                    <h3 className="text_dark fw-6">
-                      <div ref={containerRef} style={{ position: "relative" }}>
-                        <VariableProximity
-                          label="DMCC"
-                          className="variable-proximity"
-                          fromFontVariationSettings="'wght' 400, 'opsz' 9"
-                          toFontVariationSettings="'wght' 1000, 'opsz' 40"
-                          containerRef={containerRef}
-                          radius={100}
-                          falloff="linear"
-                        />
-                      </div>
-                    </h3>
-                  </div>
-                  <p className="text-body-1 text_mono-gray-7 mt_20 mb-4">
-                    Dubai Multi Commodities Center (DMCC) is a free zone in
-                    Dubai dedicated to commodities trade and enterprise. DMCC
-                    offers a range of benefits to entrepreneurs and investors
-                    looking forward to establish their businesses in the region.
-                    Partnering with Quest Management Business Setup Services LLC
-                    can help entrepreneurs and investors take advantage of the
-                    numerous benefits of setting up a business in DMCC. Quest
-                    Management can provide a range of services including company
-                    registration, licensing, visa processing, and ongoing
-                    business support to help ensure a successful business setup
-                    in the UAE.
-                  </p>
-
-                  <Link
-                    to={`/contact-us`}
-                    className="tf-btn height-2 btn-dark effect-item effect-right effect-5"
-                  >
-                    <span>Contact Us</span>
-                    <span className="bg-effect" />
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <EffectiveSolutions />
-
-      <div className="tf-container-2">
+ <div className="tf-container-2 pt_90">
         <div className="heading-section text-center mb_58">
           <div className="heading-tag d-flex gap_12 mx-auto mb_20 text_mono-dark-8 fw-5">
             <div className="icon">
@@ -856,6 +794,68 @@ const DmccFreezone = () => {
           </div>
         </div>
       </div>
+      <div className="tf-container">
+        <div className="wrap">
+          <div className="row align-items-end">
+            <div className="pt_90">
+              <div className="box-service style-1">
+                <div className="img-style effect-item effect-left effect-2">
+                  <img
+                    className="lazyload"
+                    data-src="/images/qb/dmcc2.jpg"
+                    alt="service"
+                    src="/images/qb/dmcc2.jpg"
+                    width={657}
+                    height={534}
+                  />
+                </div>
+                <div className="content">
+                  <div className="heading mb_25 effect-item effect-right effect-2">
+                    <h3 className="text_dark fw-6">
+                      <div ref={containerRef} style={{ position: "relative" }}>
+                        <VariableProximity
+                          label="DMCC"
+                          className="variable-proximity"
+                          fromFontVariationSettings="'wght' 400, 'opsz' 9"
+                          toFontVariationSettings="'wght' 1000, 'opsz' 40"
+                          containerRef={containerRef}
+                          radius={100}
+                          falloff="linear"
+                        />
+                      </div>
+                    </h3>
+                  </div>
+                  <p className="text-body-1 text_mono-gray-7 mt_20 mb-4">
+                    Dubai Multi Commodities Center (DMCC) is a free zone in
+                    Dubai dedicated to commodities trade and enterprise. DMCC
+                    offers a range of benefits to entrepreneurs and investors
+                    looking forward to establish their businesses in the region.
+                    Partnering with Quest Management Business Setup Services LLC
+                    can help entrepreneurs and investors take advantage of the
+                    numerous benefits of setting up a business in DMCC. Quest
+                    Management can provide a range of services including company
+                    registration, licensing, visa processing, and ongoing
+                    business support to help ensure a successful business setup
+                    in the UAE.
+                  </p>
+
+                  <Link
+                    to={`/contact-us`}
+                    className="tf-btn height-2 btn-dark effect-item effect-right effect-5"
+                  >
+                    <span>Contact Us</span>
+                    <span className="bg-effect" />
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <EffectiveSolutions />
+
+     
       <div className="section-testimonial style-5 tf-spacing-16 pb-0 pt_90">
         <div className="heading-section text-center mb_63">
           <h3 className="text_white split-text effect-right">
