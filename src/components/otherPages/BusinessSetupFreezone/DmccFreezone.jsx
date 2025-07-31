@@ -5,12 +5,14 @@ import Header1 from "@/components/headers/Header1";
 import { counterItems2, counterItems4 } from "@/data/facts";
 import { dmccFreezone } from "@/data/sliderData";
 import { testimonials } from "@/data/testimonials";
-import React, { useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
-import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import EffectiveSolutions from "../EffectiveSolutions";
 import VariableProximity from "@/utlis/VariableProximity";
+import { homepageServices } from "@/data/homepageServices";
+import { Pagination, Navigation, Autoplay } from "swiper/modules";
+import { dmccPackagePrice } from "@/data/priceDetails/dmccPackage";
 
 const metadata = {
   title: "DMCC Freezone",
@@ -18,6 +20,7 @@ const metadata = {
 };
 const DmccFreezone = () => {
   const containerRef = useRef(null);
+
   return (
     <>
       <MetaComponent meta={metadata} />
@@ -58,7 +61,8 @@ const DmccFreezone = () => {
                           Gold, Diamond, etc.DMCC provides a business-friendly
                           environment, with streamlined business registration
                           processes, simplified import/export procedures, and
-                          100% foreign ownership. The free zone also offers
+                          100% foreign ownership.
+                          {/* The free zone also offers
                           access to world-class infrastructure, including modern
                           office buildings, logistics facilities, and a
                           dedicated commodities exchange. DMCC is a strategic
@@ -67,7 +71,7 @@ const DmccFreezone = () => {
                           global markets. The free zone also provides
                           industry-specific benefits, including the DMCC Free
                           Zone member portal which offers a range of services
-                          and support for members.
+                          and support for members. */}
                         </p>
                       </div>
                       <div className="text-display-2 text_white mb_49 split-text effect-scale">
@@ -233,7 +237,7 @@ const DmccFreezone = () => {
           </div>
         </div>
       </div>
- <div className="tf-container-2 pt_90">
+      {/* <div className="tf-container-2 pt_90">
         <div className="heading-section text-center mb_58">
           <div className="heading-tag d-flex gap_12 mx-auto mb_20 text_mono-dark-8 fw-5">
             <div className="icon">
@@ -244,8 +248,6 @@ const DmccFreezone = () => {
           <h2 className="title text_mono-dark-9 fw-5 split-text split-lines-rotation-x">
             Discover the Best Packages for{" "}
             <span className="text-gradient">Your Business</span> in Dubai
-            {/* <span className="text-gradient">unlock</span> your <br />
-              brand’s full potential */}
           </h2>
         </div>
         <ul
@@ -408,8 +410,6 @@ const DmccFreezone = () => {
               </div>
               <div className="content">
                 <div className="heading effect-item effect-right">
-                  {/* <h6 className="text_primary fw-5 mb_12 number">01</h6>
-                    <h4 className="fw-5 mb_14 mb_24 title">Govt. Approvals</h4> */}
                   <p className="text-body-1 text_mono-gray-7 mb-4">
                     Ideal for start-ups and SMEs, Jump Start Package provides
                     additional benefits, including a 24% discount on company
@@ -457,20 +457,32 @@ const DmccFreezone = () => {
                           AED
                         </span>
                       </div>
-  
+
                       <span
                         style={{
                           fontSize: 30,
                           lineHeight: 1,
                           position: "relative",
                           display: "inline-block",
+                          fontFamily: "Arial",
                           fontWeight: 700,
                           color: "#000",
-                           textDecoration: "line-through",
+                          textDecoration: "line-through",
                         }}
-                        className="line-through"
                       >
                         57,481
+                        <span
+                          style={{
+                            position: "absolute",
+                            left: 0,
+                            right: 0,
+                            top: "50%",
+                            height: 2,
+                            backgroundColor: "#000",
+                            transform: "translateY(-50%)",
+                            pointerEvents: "none",
+                          }}
+                        />
                       </span>
                       <span
                         style={{
@@ -480,7 +492,6 @@ const DmccFreezone = () => {
                           display: "inline-block",
                           fontWeight: 700,
                           color: "#797631",
-                          
                         }}
                       >
                         43,780
@@ -495,7 +506,7 @@ const DmccFreezone = () => {
                           *
                         </span>
                       </span>
-  
+
                       <span
                         style={{
                           fontSize: 16,
@@ -509,7 +520,7 @@ const DmccFreezone = () => {
                       </span>
                     </div>
                   </div>
-         
+
                   <div>
                     <ul className="list effect-item effect-right effect-3 mt-0">
                       <li className="text-body-1 text_black">
@@ -532,7 +543,6 @@ const DmccFreezone = () => {
                     </ul>
                   </div>
                 </div>
-        
 
                 <div className=" text_white split-text effect-scale mb-3">
                   <span
@@ -586,6 +596,18 @@ const DmccFreezone = () => {
                       }}
                     >
                       65,146
+                      <span
+                        style={{
+                          position: "absolute",
+                          left: 0,
+                          right: 0,
+                          top: "50%",
+                          height: 2,
+                          backgroundColor: "#000",
+                          transform: "translateY(-50%)",
+                          pointerEvents: "none",
+                        }}
+                      />
                     </span>
                     <span
                       style={{
@@ -624,7 +646,6 @@ const DmccFreezone = () => {
                     </span>
                   </div>
                 </div>
-                {/* <h6 className="fw-5 mb_14">Included in Fee:</h6> */}
                 <div>
                   <ul className="list effect-item effect-right effect-3 mt-0">
                     <li className="text-body-1 text_black">
@@ -667,32 +688,7 @@ const DmccFreezone = () => {
                 />
               </div>
               <div className="content">
-                {/* <div className="heading mb_28 effect-item effect-right">
-                  <h6 className="text_primary fw-5 mb_12 number">02</h6>
-                  <h4 className="fw-5 mb_14 mb_24 title">Company Setup</h4>
-                  <p className="text-body-1 text_mono-gray-7">
-                    Starting trade name approval through to final business
-                    license acquisition process.
-                  </p>
-                </div>
-                <ul className="list effect-item effect-right effect-3 mb_56">
-                  <li className="text-body-1 text_black">
-                    <i className="icon-check-cycle-line" />
-                    Apply for trade name approval
-                  </li>
-                  <li className="text-body-1 text_black">
-                    <i className="icon-check-cycle-line" />
-                    Secure initial approval and MOA typing
-                  </li>
-                  <li className="text-body-1 text_black">
-                    <i className="icon-check-cycle-line" /> Obtain Ejari for
-                    office lease
-                  </li>
-                  <li className="text-body-1 text_black">
-                    <i className="icon-check-cycle-line" /> Get official company
-                    license
-                  </li>
-                </ul> */}
+              
               </div>
             </div>
           </div>
@@ -715,32 +711,7 @@ const DmccFreezone = () => {
                 />
               </div>
               <div className="content">
-                {/* <div className="heading mb_28 effect-item effect-right">
-                  <h6 className="text_primary fw-5 mb_12 number">03</h6>
-                  <h4 className="fw-5 mb_14 mb_24 title">Visa & ID Process</h4>
-                  <p className="text-body-1 text_mono-gray-7">
-                    Handling visa application steps and acquiring Emirates ID
-                    for legal residency.
-                  </p>
-                </div>
-                <ul className="list effect-item effect-right effect-3 mb_56">
-                  <li className="text-body-1 text_black">
-                    <i className="icon-check-cycle-line" /> Submit visa
-                    application documents
-                  </li>
-                  <li className="text-body-1 text_black">
-                    <i className="icon-check-cycle-line" />
-                    Complete medical and biometrics
-                  </li>
-                  <li className="text-body-1 text_black">
-                    <i className="icon-check-cycle-line" />
-                    Receive entry permit and stamping
-                  </li>
-                  <li className="text-body-1 text_black">
-                    <i className="icon-check-cycle-line" />
-                    Apply for Emirates ID issuance
-                  </li>
-                </ul> */}
+             
               </div>
             </div>
           </div>
@@ -763,38 +734,295 @@ const DmccFreezone = () => {
                 />
               </div>
               <div className="content">
-                {/* <div className="heading mb_28 effect-item effect-right">
-                  <h6 className="text_primary fw-5 mb_12 number">04</h6>
-                  <h4 className="fw-5 mb_14 mb_24 title">Bank Account Setup</h4>
-                  <p className="text-body-1 text_mono-gray-7">
-                    Coordinating with banker to open a company bank account
-                    efficiently.
-                  </p>
-                </div>
-                <ul className="list effect-item effect-right effect-3 mb_56">
-                  <li className="text-body-1 text_black">
-                    <i className="icon-check-cycle-line" />
-                    Schedule meeting with banker
-                  </li>
-                  <li className="text-body-1 text_black">
-                    <i className="icon-check-cycle-line" />
-                    Submit required company documents
-                  </li>
-                  <li className="text-body-1 text_black">
-                    <i className="icon-check-cycle-line" />
-                    Choose account type and services
-                  </li>
-                  <li className="text-body-1 text_black">
-                    <i className="icon-check-cycle-line" />
-                    Complete KYC and verification
-                  </li>
-                </ul> */}
+             
               </div>
             </div>
           </div>
         </div>
+      </div> */}
+<div className="heading-section text-center mt_60">
+          <div className="heading-tag d-flex gap_12 mx-auto mb_20 text_mono-dark-8 fw-5">
+            <div className="icon">
+              <i className="icon-user-question-02" />
+            </div>
+            <p className="text-body-3 fw-5">Choose From Amazing Packages</p>
+          </div>
+          <h2 className="title text_mono-dark-9 fw-5 split-text split-lines-rotation-x">
+            Discover the Best Packages for{" "}
+            <span className="text-gradient">Your Business</span> in Dubai
+            {/* <span className="text-gradient">unlock</span> your <br />
+              brand’s full potential */}
+          </h2>
+        </div>
+      <div className="section sw-layout-1 tf-spacing-13 py-0">
+        <div className="tf-container">
+          <div className="heading-section d-flex justify-content-end flex-wrap-md gap_12 align-items-end mb_60">
+            {/* <div className="left">
+              <h2 className="heading-title split-text effect-right">
+                <div ref={containerRef} style={{ position: "relative" }}>
+                  <VariableProximity
+                    label="Smart Business Services, Built Around You"
+                    className="variable-proximity"
+                    fromFontVariationSettings="'wght' 400, 'opsz' 9"
+                    toFontVariationSettings="'wght' 1000, 'opsz' 40"
+                    containerRef={containerRef}
+                    radius={100}
+                    falloff="linear"
+                  />
+                </div>
+              </h2>
+              <p
+                className="text-body-1 text_mono-gray-7 mt_20 wow animate__fadeInUp animate__animated"
+                data-wow-delay="0s"
+              >
+                From company formation to banking and compliance — our
+                expert-led services are tailored to fuel your success and
+                simplify your journey in Dubai.
+              </p>
+            </div> */}
+            <div className="wrap-sw-button d-flex gap_16">
+              <div className="sw-button style-default v2 has-bg nav-prev-layout-1 snbp6">
+                <i className="icon-caret-left" />
+              </div>
+              <div className="sw-button style-default v2 has-bg nav-next-layout-1 snbn6">
+                <i className="icon-caret-right" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="tf-container slider-layout-right w-xl">
+          <Swiper
+            className="swiper"
+            spaceBetween={15}
+            breakpoints={{
+              0: { slidesPerView: 1 },
+              575: {
+                slidesPerView: 1,
+              },
+              768: {
+                slidesPerView: 1.1,
+              },
+              992: {
+                slidesPerView: 1.4,
+                spaceBetween: 20,
+              },
+              1200: {
+                slidesPerView: 1.1,
+                spaceBetween: 24,
+              },
+            }}
+            modules={[Navigation, Autoplay]}
+            // loop={true}
+            // autoplay={{
+            //   delay: 2000,
+            //   disableOnInteraction: false,
+            // }}
+            navigation={{
+              prevEl: ".snbp6",
+              nextEl: ".snbn6",
+            }}
+          >
+            {dmccPackagePrice.map((item) => (
+              <SwiperSlide className="swiper-slide" key={item.id}>
+                <div className="case-studies-item style-1 hover-image hover-border border-element h-full w-100">
+                  <Link to={`/${item.link}`} className="img-style">
+                    <img
+                      className="lazyload"
+                      data-src={item.image}
+                      alt="case-studies"
+                      src={item.image}
+                      width={382}
+                      height={502}
+                    />
+                  </Link>
+                  <div className="content flex-1" style={{ maxWidth: "100%" }}>
+                    <div className="top d-flex align-items-center justify-content-between mb_31">
+                      <span>
+                        <span
+                          className="me-1"
+                          style={{
+                            fontSize: 16,
+                            lineHeight: 1,
+                            fontWeight: 600,
+                            color: "#000",
+                          }}
+                        >
+                          Starts from{" "}
+                        </span>
+                        <span
+                          style={{
+                            fontSize: 25,
+                            lineHeight: 1,
+                            position: "relative",
+                            display: "inline-block",
+                            fontWeight: 700,
+                            color: "#797631",
+                          }}
+                        >
+                          {" "}
+                          {item.startingPrice}
+                        </span>
+                      </span>
+
+                      {/* </div> */}
+                      <a
+                        href={`/contact-us`}
+                        className="tf-btn"
+                        target="_blank"
+                      >
+                        <span className="icon-arrow-top-right" />
+                        <span className="bg-effect" />
+                      </a>
+                    </div>
+                    <div className="heading">
+                      <h4 className="mb_15 title">
+                        <div className="link" style={{ color: "#797631" }}>
+                          {item.title}
+                        </div>
+                      </h4>
+                      <p className="text_mono-gray-7 text-body-2 mb-5">
+                        {item.description}
+                      </p>
+                    </div>
+                    <div className="d-lg-flex gap-4 packagePricing">
+                      {item?.packages?.map((packageDetails, index) => {
+                        return (
+                          <div key={index} className="light-border mb-4 flex-1">
+                            <div className="mb-5">
+                              <div className=" text_white split-text effect-scale mb-3">
+                                <span
+                                  className="fw-bold"
+                                  style={{
+                                    color: "#797631",
+                                    fontSize: 20,
+                                    lineHeight: "20px",
+                                  }}
+                                >
+                                  {packageDetails.heading}
+                                </span>
+                                <div
+                                  className="d-sm-flex align-items-center mt-4 flex-wrap"
+                                  style={{ gap: "10px" }}
+                                >
+                                  <div className="me-4">
+                                    <span
+                                      style={{
+                                        fontSize: 15,
+                                        lineHeight: "15px",
+                                        display: "block",
+                                        color: "#000",
+                                      }}
+                                    >
+                                      From Just
+                                    </span>
+                                    <span
+                                      style={{
+                                        fontSize: 25,
+                                        lineHeight: "25px",
+                                        display: "block",
+                                        fontWeight: 900,
+                                        letterSpacing: 5,
+                                        color: "#797631",
+                                      }}
+                                    >
+                                      AED
+                                    </span>
+                                  </div>
+
+                                  <span
+                                    style={{
+                                      fontSize: 30,
+                                      lineHeight: 1,
+                                      position: "relative",
+                                      display: "inline-block",
+                                      fontFamily: "Arial",
+                                      fontWeight: 500,
+                                      color: "#000",
+                                      textDecoration: "line-through",
+                                    }}
+                                  >
+                                    {packageDetails.oldPrice}
+                                    <span
+                                      style={{
+                                        position: "absolute",
+                                        left: 0,
+                                        right: 0,
+                                        top: "50%",
+                                        height: 2,
+                                        backgroundColor: "#000",
+                                        transform: "translateY(-50%)",
+                                        pointerEvents: "none",
+                                      }}
+                                    />
+                                  </span>
+                                  <span
+                                    style={{
+                                      fontSize: 45,
+                                      lineHeight: 1,
+                                      position: "relative",
+                                      display: "inline-block",
+                                      fontWeight: 700,
+                                      color: "#797631",
+                                    }}
+                                  >
+                                    {packageDetails.newPrice}
+                                    <span
+                                      style={{
+                                        fontSize: 15,
+                                        position: "absolute",
+                                        top: 0,
+                                        right: -10,
+                                      }}
+                                    >
+                                      *
+                                    </span>
+                                  </span>
+
+                                  <span
+                                    style={{
+                                      fontSize: 16,
+                                      lineHeight: 1,
+                                      alignSelf: "flex-end",
+                                      marginBottom: 20,
+                                      color: "#000",
+                                    }}
+                                  >
+                                    (Special Offer!)
+                                  </span>
+                                </div>
+                              </div>
+
+                              <div>
+                                <ul className="list effect-item effect-right effect-3 mt-0">
+                                  {packageDetails.featuresInclude.map(
+                                    (feature, index) => {
+                                      return (
+                                        <li
+                                          className="text-body-1 text_black d-flex align-items-center mb-2"
+                                          key={index}
+                                        >
+                                          <i className="icon-check-cycle-line me-3" />
+                                          {feature}
+                                        </li>
+                                      );
+                                    }
+                                  )}
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
       </div>
-      <div className="tf-container">
+
+      {/* <div className="tf-container">
         <div className="wrap">
           <div className="row align-items-end">
             <div className="pt_90">
@@ -851,11 +1079,10 @@ const DmccFreezone = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <EffectiveSolutions />
 
-     
       <div className="section-testimonial style-5 tf-spacing-16 pb-0 pt_90">
         <div className="heading-section text-center mb_63">
           <h3 className="text_white split-text effect-right">

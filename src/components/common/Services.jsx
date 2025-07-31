@@ -10,24 +10,22 @@ import VariableProximity from "@/utlis/VariableProximity";
 export default function Services() {
   const containerRef = useRef(null);
   return (
-    <div
-      className="section sw-layout-1 tf-spacing-13 py-0"
-    >
+    <div className="section sw-layout-1 tf-spacing-13 py-0">
       <div className="tf-container">
         <div className="heading-section d-flex justify-content-between flex-wrap-md gap_12 align-items-end mb_60">
           <div className="left">
             <h2 className="heading-title split-text effect-right">
-               <div ref={containerRef} style={{ position: "relative" }}>
-                                    <VariableProximity
-                                      label="Smart Business Services, Built Around You"
-                                      className="variable-proximity"
-                                      fromFontVariationSettings="'wght' 400, 'opsz' 9"
-                                      toFontVariationSettings="'wght' 1000, 'opsz' 40"
-                                      containerRef={containerRef}
-                                      radius={100}
-                                      falloff="linear"
-                                    />
-                                  </div>
+              <div ref={containerRef} style={{ position: "relative" }}>
+                <VariableProximity
+                  label="Smart Business Services, Built Around You"
+                  className="variable-proximity"
+                  fromFontVariationSettings="'wght' 400, 'opsz' 9"
+                  toFontVariationSettings="'wght' 1000, 'opsz' 40"
+                  containerRef={containerRef}
+                  radius={100}
+                  falloff="linear"
+                />
+              </div>
             </h2>
             <p
               className="text-body-1 text_mono-gray-7 mt_20 wow animate__fadeInUp animate__animated"
