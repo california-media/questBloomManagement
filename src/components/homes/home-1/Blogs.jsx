@@ -16,7 +16,7 @@ export default function Blogs() {
               <h1 className="heading-title split-text effect-right">
                  <div ref={containerRef} style={{ position: "relative" }}>
                       <VariableProximity
-                        label="Our Premium Services"
+                        label="Popular UAE Free Zones"
                         className="variable-proximity"
                         fromFontVariationSettings="'wght' 400, 'opsz' 9"
                         toFontVariationSettings="'wght' 1000, 'opsz' 40"
@@ -30,22 +30,19 @@ export default function Blogs() {
                 className="text-body-1 text_mono-gray-7 mt_20 wow animate__fadeInUp animate__animated"
                 data-wow-delay="0s"
               >
-                Our Premium Services offer end-to-end business solutions, from
-                company formation to legal support,
-                <br /> ensuring a seamless and efficient setup process tailored
-                to your unique needs and growth goals.
+              Our Business Setup Experts ensures that your UAE Free Zone firm is successfully registered and that all UAE rules are followed. <br/> Examine the advantages of the most popular UAE Free Zone and allow us to create the appropriate company setup strategy for you to save your time and money.
               </p>
             </div>
-            <div className="wrap-sw-button d-flex gap_16">
+            {/* <div className="wrap-sw-button d-flex gap_16">
               <div className="sw-button style-default v2 has-bg nav-prev-layout-1 snbp5">
                 <i className="icon-caret-left" />
               </div>
               <div className="sw-button style-default v2 has-bg nav-next-layout-1 snbn5">
                 <i className="icon-caret-right" />
               </div>
-            </div>
+            </div> */}
           </div>
-          <Swiper
+          {/* <Swiper
             className="swiper swiper-container wow animate__fadeInLeft animate__animated"
             data-wow-delay="0s"
             spaceBetween={15}
@@ -68,41 +65,45 @@ export default function Blogs() {
               prevEl: ".snbp5",
               nextEl: ".snbn5",
             }}
-          >
+          > */}
+          <div className="row">
             {blogArticles.map((article) => (
-              <SwiperSlide className="swiper-slide" key={article.id}>
-                <div className="blog-article-item hover-image">
-                  <Link to={`/${article.link}`} className="article-thumb mb_25">
-                    <img
-                      className="lazyload"
-                      data-src={article.imageSrc}
-                      alt="blog"
-                      src={article.imageSrc}
-                      width={article.width}
-                      height={article.height}
-                    />
-                  </Link>
-                  <div className="article-content">
-                    <ul className="blog-article-meta mb_15 d-flex align-items-center">
-                      <li className="meta-item text-body-1">
-                        <Link to={`/${article.link}`} className="link-black">
-                          {article.category}
+              // <SwiperSlide className="swiper-slide" key={article.id}>
+                <div className="col-lg-4 col-md-6 col-sm-12 mb-5">
+                  <div className="blog-article-item hover-image">
+                    <Link to={`/${article.link}`} className="article-thumb mb_15" style={{height: "300px", overflow: "hidden"}}>
+                      <img
+                        className="lazyload"
+                        data-src={article.imageSrc}
+                        alt="blog"
+                        src={article.imageSrc}
+                        width={article.width}
+                        height={article.height}
+                      />
+                    </Link>
+                    <div className="article-content">
+                      <ul className="blog-article-meta d-flex align-items-center">
+                        <li className="meta-item text-body-1">
+                          <Link to={`/${article.link}`} className="link-black fw-bold">
+                           <span className="fw-medium me-2">Starting from</span> <span className="fs-2">{article.startingFromPrice}* AED</span>
+                          </Link>
+                        </li>
+                        {/* <li className="meta-item date text-body-1">
+                          {article.date}
+                        </li> */}
+                      </ul>
+                      <h5 className="title letter-spacing-2">
+                        <Link to={`/${article.link}`} className="link">
+                          {article.title}
                         </Link>
-                      </li>
-                      {/* <li className="meta-item date text-body-1">
-                        {article.date}
-                      </li> */}
-                    </ul>
-                    <h5 className="title letter-spacing-2">
-                      <Link to={`/${article.link}`} className="link">
-                        {article.title}
-                      </Link>
-                    </h5>
+                      </h5>
+                    </div>
                   </div>
                 </div>
-              </SwiperSlide>
+              // </SwiperSlide>
             ))}
-          </Swiper>
+            </div>
+          {/* </Swiper> */}
         </div>
       </div>
     </div>
