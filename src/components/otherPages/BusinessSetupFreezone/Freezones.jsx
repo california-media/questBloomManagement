@@ -28,7 +28,7 @@ const Freezones = () => {
                       <h1 className="title split-text effect-right mb-5">
                          <div ref={containerRef} style={{ position: "relative" }}>
                       <VariableProximity
-                        label="UAE Free Zones"
+                        label="Discover the Best Free Zone Packages for Your Business in Dubai"
                         className="variable-proximity"
                         fromFontVariationSettings="'wght' 400, 'opsz' 9"
                         toFontVariationSettings="'wght' 1000, 'opsz' 40"
@@ -43,21 +43,86 @@ const Freezones = () => {
                           className="text-body-1 text_mono-gray-7 mb_9 wow animate__fadeInUp animate__animated"
                           data-wow-delay="0s"
                         >
-                          Free zones in the UAE offer a business-friendly
-                          environment designed to attract foreign investment and
-                          encourage economic growth. These zones provide
-                          numerous benefits such as 100% foreign ownership, full
-                          repatriation of profits, tax exemptions, and
-                          simplified company setup procedures. Each free zone is
-                          tailored to support specific industries, from trade
-                          and logistics to media, finance, and technology.
-                          Entrepreneurs and investors can choose from a wide
-                          range of locations across all emirates based on their
-                          business needs. Setting up a company in a UAE free
-                          zone is an ideal option for those seeking flexibility,
-                          efficiency, and access to regional and international
-                          markets.
+                        Unlock the full potential of your business with the perfect Free Zone package. Whether you’re a startup or an established company, we offer tailored solutions in the UAE’s top Free Zones. Enjoy 100% foreign ownership, tax benefits, and world-class infrastructure. 
                         </p>
+                      </div>
+
+                       <div className="text-display-2 text_white mb_49 split-text effect-scale">
+                        <span
+                          className="fw-bold"
+                          style={{
+                            color: "#797631",
+                            fontSize: 50,
+                            lineHeight: "50px",
+                          }}
+                        >
+                          Packages starts
+                        </span>
+                        <div
+                          className="d-sm-flex align-items-center mt-4"
+                          style={{ gap: "10px" }}
+                        >
+                          <div className="me-4">
+                            <span
+                              style={{
+                                fontSize: 25,
+                                lineHeight: "30px",
+                                display: "block",
+                                color: "#000",
+                              }}
+                            >
+                              From Just
+                            </span>
+                            <span
+                              style={{
+                                fontSize: 40,
+                                lineHeight: "45px",
+                                display: "block",
+                                fontWeight: 900,
+                                letterSpacing: 5,
+                                color: "#797631",
+                              }}
+                            >
+                              AED
+                            </span>
+                          </div>
+
+                          <span
+                            style={{
+                              fontSize: 90,
+                              lineHeight: 1,
+                              position: "relative",
+                              display: "inline-block",
+                              fontWeight: 700,
+                              color: "#797631",
+                            }}
+                          >
+                            5,500
+                            <span
+                              style={{
+                                fontSize: 30,
+                                position: "absolute",
+                                top: 0,
+                                right: -10,
+                              }}
+                            >
+                              *
+                            </span>
+                          </span>
+
+                          {/* <span
+                            style={{
+                              fontSize: 16,
+                              lineHeight: 1,
+                              alignSelf: "flex-end",
+                              marginBottom: 20,
+                              color: "#000",
+                            }}
+                          >
+                            JLT Resident Package
+                          </span> */}
+                        </div>
+                      
                       </div>
                     </div>
                   </div>
@@ -83,9 +148,9 @@ const Freezones = () => {
         </div>
       </div>
 
-     <div className="tf-container pt_90">
+     <div className="tf-container pt_50">
          <div className="row">
-           <div className="text-center pb_90">
+           <div className="text-center pb_50">
              <h2 className="title text_mono-dark-9 fw-5 split-text split-lines-rotation-x">
                Choose your{" "}
                 <span className="text-gradient">Free zone</span>
@@ -97,6 +162,7 @@ const Freezones = () => {
                     <Link
                       to={`/${item.link}`}
                       className="article-thumb mb_30"
+                      style={{height:300}}
                     >
                       <img
                         className="lazyload"

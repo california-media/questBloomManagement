@@ -5,7 +5,7 @@ export const freezones = [
     title: "Dubai South Free Zone",
     link: "dubai-south-freezone",
     width: 406,
-    height: 553,
+    height: 200,
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const freezones = [
     title: "DMCC Free Zone",
     link: "dmcc-freezone",
     width: 406,
-    height: 553,
+    height: 200,
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ export const freezones = [
     title: "Jebel Ali Free Zone Authority",
     link: "jebel-ali-freezone",
     width: 406,
-    height: 553,
+    height: 200,
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ export const freezones = [
     title: "Hamriyah Free Zone Authority",
     link: "hamriyah-freezone",
     width: 406,
-    height: 553,
+    height: 200,
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ export const freezones = [
     title: "Sharjah Airport International Free Zone",
     link: "sharjah-airport-freezone",
     width: 406,
-    height: 553,
+    height: 200,
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ export const freezones = [
     title: "Umm Al Quwain Free Trade Zone",
     link: "umm-al-quwain-ftz",
     width: 406,
-    height: 553,
+    height: 200,
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ export const freezones = [
     title: "Fujairah Free Zone Authority",
     link: "fujairah-fza",
     width: 406,
-    height: 553,
+    height: 200,
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ export const freezones = [
     title: "Sharjah Media City",
     link: "sharjah-media-city",
     width: 406,
-    height: 553,
+    height: 200,
   },
   {
     id: 9,
@@ -69,7 +69,7 @@ export const freezones = [
     title: "Ajman Free Zone Authority",
     link: "ajman-fza",
     width: 406,
-    height: 553,
+    height: 200,
   },
   {
     id: 10,
@@ -77,7 +77,7 @@ export const freezones = [
     title: "Ajman Media City Freezone",
     link: "ajman-media-city-fz",
     width: 406,
-    height: 553,
+    height: 200,
   },
   {
     id: 11,
@@ -85,7 +85,7 @@ export const freezones = [
     title: "Ras Al Khaimah Free Economic Zone Authority",
     link: "ras-al-khaimah-feza",
     width: 406,
-    height: 553,
+    height: 200,
   },
   {
     id: 12,
@@ -93,6 +93,6 @@ export const freezones = [
     title: "International Free Zone Authority",
     link: "international-fza",
     width: 406,
-    height: 553,
+    height: 200,
   },
 ];

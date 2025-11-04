@@ -85,7 +85,7 @@ export default function Blogs() {
                       <ul className="blog-article-meta d-flex align-items-center">
                         <li className="meta-item text-body-1">
                           <Link to={`/${article.link}`} className="link-black fw-bold">
-                           <span className="fw-medium me-2">Starting from</span> <span className="fs-2">{article.startingFromPrice}* AED</span>
+                           <span className="fw-medium me-2">Starting from</span> <span className="fs-2">{article.startingFromPrice}* AED</span>{article.title=="Sharjah Media City" && "/month"}
                           </Link>
                         </li>
                         {/* <li className="meta-item date text-body-1">
