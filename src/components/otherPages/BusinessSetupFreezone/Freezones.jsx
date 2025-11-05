@@ -47,7 +47,7 @@ const Freezones = () => {
                         </p>
                       </div>
 
-                       <div className="text-display-2 text_white mb_49 split-text effect-scale">
+                       <div className="text-display-2 text_white mb_20 split-text effect-scale">
                         <span
                           className="fw-bold"
                           style={{

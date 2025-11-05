@@ -69,7 +69,7 @@ export const dmccPackagePrice = [
     id: 3,
     image: "/images/qb/shakeHands.jpg",
     link: "business-setup-dubai-mainland",
-    startingPrice: "AED 43,780*",
+    startingPrice: "AED 35,484*",
     packages: [
       {
         heading: "License with special Flexi Desk",
