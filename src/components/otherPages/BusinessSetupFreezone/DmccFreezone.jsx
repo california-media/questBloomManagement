@@ -482,20 +482,20 @@ const DmccFreezone = () => {
           centeredSlides
           spaceBetween={15}
           breakpoints={{
-            0: { slidesPerView: 2.2 },
+            0: { slidesPerView: 1.2 },
             575: {
-              slidesPerView: 2.2,
+              slidesPerView: 1,
             },
             768: {
-              slidesPerView: 2.2,
+              slidesPerView: 3.1,
               spaceBetween: 20,
             },
             992: {
-              slidesPerView: 2.3,
+              slidesPerView: 3.2,
               spaceBetween: 72,
             },
             1200: {
-              slidesPerView: 2.98,
+              slidesPerView: 3.8,
               spaceBetween: 72,
             },
           }}
@@ -512,7 +512,7 @@ const DmccFreezone = () => {
                       borderRadius: 35,
                       width: "auto",
                       overflow: "hidden",
-                      height: 300
+                      height: 200
                     }}
                   >
                     <img
@@ -522,14 +522,14 @@ const DmccFreezone = () => {
                       src={testimonial.imageSrc}
                       width={908}
                       // height={652}
-                      height={300}
+                      height={200}
                       style={{ borderRadius: 35 }}
                     />
                   </div>
                 </div>
                 <div className="content">
                   <div className="d-flex flex-column">
-                    <h6 className="text_white mb-3 fw-bold">{testimonial.heading}</h6>
+                    <h6 className="text_white mb-3 fw-bold" style={{ fontSize: "20px" }}>{testimonial.heading}</h6>
                     <div className="left">
                       <p className="text-body-2 text_white mb_12">
                         {testimonial.quote}

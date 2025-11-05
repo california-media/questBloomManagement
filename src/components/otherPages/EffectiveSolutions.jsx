@@ -25,17 +25,17 @@ const EffectiveSolutions = () => {
                     />
                   </div>
                 </h1>
-                <p
+                {/* <p
                   className="text-body-1 text_mono-gray-7 mt_20 wow animate__fadeInUp animate__animated text-center"
                   data-wow-delay="0s"
                 >
-                  {/* We are a team of professionals who are specialized in providing
+                  We are a team of professionals who are specialized in providing
                 holistic support and services towards setting up your business<br/>
                 in UAE and abroad. We are always ready to walk the extra mile to
                 cater to all your business requisites. Our customer-centric<br/>
-                approach makes us more accessible to our global clientele. */}
-                  We are a team of professionals offering comprehensive support for <br /> setting up your business in the UAE and abroad. With a customer-focused approach, we go the extra mile to meet <br /> all your business needs and stay accessible to our global clients.
-                </p>
+                approach makes us more accessible to our global clientele.
+                
+                </p> */}
               </div>
             </div>
             <div className="row">

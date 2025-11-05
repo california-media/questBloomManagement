@@ -4,6 +4,7 @@ export const dmccPackagePrice = [
     image: "/images/qb/shakeHands.jpg",
     link: "business-setup-dubai-mainland",
     startingPrice: "AED 35,484*",
+      noDiscount:false,
     packages: [
       {
         heading: "License with special Flexi Desk",
@@ -15,17 +16,6 @@ export const dmccPackagePrice = [
           "Special flexi-desk options",
         ],
       },
-      // {
-      //   heading: "2. License with co-working space",
-      //   oldPrice: "65,146",
-      //   newPrice: "49,941",
-      //   featuresInclude: [
-      //     "DMCC company licence",
-      //     "Co-working space (eligible for three UAE residency visas)",
-      //     "One UAE residency visa included in package price",
-      //     "Complimentary true copy of the resolution",
-      //   ],
-      // },
     ],
     title: "JLT Resident Package",
     description:
@@ -36,6 +26,7 @@ export const dmccPackagePrice = [
     image: "/images/qb/shakeHands.jpg",
     link: "business-setup-dubai-mainland",
     startingPrice: "AED 35,484*",
+      noDiscount:false,
     packages: [
       {
         heading: "1. License with standard Flexi Desk",
@@ -48,17 +39,6 @@ export const dmccPackagePrice = [
           "Tailored package for individual shareholders (not for branches and subsidiaries)",
         ],
       },
-      // {
-      //   heading: "2. License with co-working space",
-      //   oldPrice: "65,146",
-      //   newPrice: "49,941",
-      //   featuresInclude: [
-      //     "DMCC company licence",
-      //     "Co-working space (eligible for three UAE residency visas)",
-      //     "One UAE residency visa included in package price",
-      //     "Complimentary true copy of the resolution",
-      //   ],
-      // },
     ],
     title: "Basic Biz Package ",
     description:
@@ -69,6 +49,7 @@ export const dmccPackagePrice = [
     image: "/images/qb/shakeHands.jpg",
     link: "business-setup-dubai-mainland",
     startingPrice: "AED 43,780*",
+      noDiscount:false,
     packages: [
       {
         heading: "1. License with standard Flexi Desk",
@@ -102,6 +83,7 @@ export const dmccPackagePrice = [
     image: "/images/qb/shakeHands.jpg",
     link: "business-setup-dubai-mainland",
     startingPrice: "AED 32,851*",
+      noDiscount:false,
     packages: [
       {
         heading: "License with  co-working space",
@@ -125,6 +107,7 @@ export const dmccPackagePrice = [
     image: "/images/qb/shakeHands.jpg",
     link: "business-setup-dubai-mainland",
     startingPrice: "AED 30,951*",
+        noDiscount:false,
     packages: [
       {
         heading: "License with  co-working space",
@@ -148,6 +131,7 @@ export const dmccPackagePrice = [
     image: "/images/qb/shakeHands.jpg",
     link: "business-setup-dubai-mainland",
     startingPrice: "AED 34,082*",
+        noDiscount:true,
     packages: [
       {
         heading: "License with co-working desk",
@@ -172,6 +156,7 @@ export const dmccPackagePrice = [
     image: "/images/qb/shakeHands.jpg",
     link: "business-setup-dubai-mainland",
     startingPrice: "AED 10,345*",
+        noDiscount:true,
     packages: [
       {
         heading: "License with Nook Co-Working Desk",
@@ -195,6 +180,7 @@ export const dmccPackagePrice = [
     image: "/images/qb/shakeHands.jpg",
     link: "business-setup-dubai-mainland",
     startingPrice: "AED 1,925*",
+    noDiscount:true,
     packages: [
       {
         heading: "License with AstroLabs Co-Working Desk",
