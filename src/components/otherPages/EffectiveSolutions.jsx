@@ -53,11 +53,11 @@ const EffectiveSolutions = () => {
                       />
                     </div>
                     <div className="article-content">
-                      <h5 className="title letter-spacing-2">
+                      <h6 className="title letter-spacing-2">
                         <div className="link">
                           {article.title}
                         </div>
-                      </h5>
+                      </h6>
                       <p
                         className="text-body-1 text_mono-gray-7 wow animate__fadeInUp animate__animated"
                         data-wow-delay="0s"
