@@ -453,10 +453,10 @@ const DmccFreezone = () => {
 
 
       <EffectiveSolutions />
-       <div style={{background:"#797631"}}>
-<div className="heading-section text-center mb_20">
+      <div style={{ background: "#797631" }}>
+        <div className="heading-section text-center mb_20">
           <h3 className="text_white split-text effect-right">
-            <div ref={containerRef} style={{ position: "relative", paddingTop:"20px" }}>
+            <div ref={containerRef} style={{ position: "relative", paddingTop: "20px" }}>
               <VariableProximity
                 label="Benefits to set up business in DMCC Free Zone"
                 className="variable-proximity"
@@ -469,79 +469,79 @@ const DmccFreezone = () => {
             </div>
           </h3>
         </div>
-      
-          <Swiper
-            className="swiper sw-layout mb-0"
-            loop={true}
-            autoplay={{
-              delay: 2000,
-              disableOnInteraction: false,
-            }}
-            modules={[Autoplay]}
-            initialSlide={1}
-            centeredSlides
-            spaceBetween={15}
-            breakpoints={{
-              0: { slidesPerView: 2.2 },
-              575: {
-                slidesPerView: 2.2,
-              },
-              768: {
-                slidesPerView: 2.2,
-                spaceBetween: 20,
-              },
-              992: {
-                slidesPerView: 2.3,
-                spaceBetween: 72,
-              },
-              1200: {
-                slidesPerView: 2.98,
-                spaceBetween: 72,
-              },
-            }}
-          >
-            {dmccFreezone.map((testimonial, index) => (
-              <SwiperSlide
-                className="swiper-slide"
-                key={`${testimonial.id}-${index}`}
-              >
-                <div className="testimonial style-4">
-                  <div className="img-style-slider mb_20">
-                    <div
-                      style={{
-                        borderRadius: 35,
-                        width: "auto",
-                        overflow: "hidden",
-                        height:300
-                      }}
-                    >
-                      <img
-                        className="lazyload"
-                        data-src={testimonial.imageSrc}
-                        alt="testimonial"
-                        src={testimonial.imageSrc}
-                        width={908}
-                        // height={652}
-                        height={300}
-                        style={{ borderRadius: 35 }}
-                      />
-                    </div>
+
+        <Swiper
+          className="swiper sw-layout mb-0"
+          loop={true}
+          autoplay={{
+            delay: 2000,
+            disableOnInteraction: false,
+          }}
+          modules={[Autoplay]}
+          initialSlide={1}
+          centeredSlides
+          spaceBetween={15}
+          breakpoints={{
+            0: { slidesPerView: 2.2 },
+            575: {
+              slidesPerView: 2.2,
+            },
+            768: {
+              slidesPerView: 2.2,
+              spaceBetween: 20,
+            },
+            992: {
+              slidesPerView: 2.3,
+              spaceBetween: 72,
+            },
+            1200: {
+              slidesPerView: 2.98,
+              spaceBetween: 72,
+            },
+          }}
+        >
+          {dmccFreezone.map((testimonial, index) => (
+            <SwiperSlide
+              className="swiper-slide"
+              key={`${testimonial.id}-${index}`}
+            >
+              <div className="testimonial style-4">
+                <div className="img-style-slider mb_20">
+                  <div
+                    style={{
+                      borderRadius: 35,
+                      width: "auto",
+                      overflow: "hidden",
+                      height: 300
+                    }}
+                  >
+                    <img
+                      className="lazyload"
+                      data-src={testimonial.imageSrc}
+                      alt="testimonial"
+                      src={testimonial.imageSrc}
+                      width={908}
+                      // height={652}
+                      height={300}
+                      style={{ borderRadius: 35 }}
+                    />
                   </div>
-                  <div className="content">
-                    <div className="d-flex flex-column">
-                      <h6 className="text_white mb-3 fw-bold">{testimonial.heading}</h6>
-                      <div className="left">
-                        <p className="text-body-2 text_white mb_12">
-                          {testimonial.quote}
-                        </p>
-                      </div>
+                </div>
+                <div className="content">
+                  <div className="d-flex flex-column">
+                    <h6 className="text_white mb-3 fw-bold">{testimonial.heading}</h6>
+                    <div className="left">
+                      <p className="text-body-2 text_white mb_12">
+                        {testimonial.quote}
+                      </p>
                     </div>
                   </div>
                 </div>
-              </SwiperSlide>
-            ))}
-          </Swiper>
-       </div>
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
       <div className="section-testimonial style-5 pb-0 pt_30">
         <div className="bot">
           <div className="tf-container">
