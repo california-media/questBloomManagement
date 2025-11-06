@@ -226,7 +226,7 @@ const DmccFreezone = () => {
                     <img
                       alt=""
                       className="img-custom-anim-left wow"
-                      src="/images/qb/dmcc.jpg"
+                      src="/images/qb/dmccBanner.webp"
                       width={802}
                       height={535}
                     />

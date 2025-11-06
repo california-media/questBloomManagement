@@ -1,7 +1,7 @@
 export const dmccPackagePrice = [
     {
     id: 1,
-    image: "/images/qb/shakeHands.jpg",
+    image: "/images/qb/dmcc1.webp",
     link: "business-setup-dubai-mainland",
     startingPrice: "AED 35,484*",
       noDiscount:false,
@@ -23,7 +23,7 @@ export const dmccPackagePrice = [
   },
   {
     id: 2,
-    image: "/images/qb/shakeHands.jpg",
+    image: "/images/qb/dmcc2.webp",
     link: "business-setup-dubai-mainland",
     startingPrice: "AED 35,484*",
       noDiscount:false,
@@ -46,7 +46,7 @@ export const dmccPackagePrice = [
   },
   {
     id: 3,
-    image: "/images/qb/shakeHands.jpg",
+    image: "/images/qb/dmcc3.webp",
     link: "business-setup-dubai-mainland",
     startingPrice: "AED 43,780*",
       noDiscount:false,
@@ -80,7 +80,7 @@ export const dmccPackagePrice = [
   },
   {
     id: 4,
-    image: "/images/qb/shakeHands.jpg",
+    image: "/images/qb/dmcc4.webp",
     link: "business-setup-dubai-mainland",
     startingPrice: "AED 32,851*",
       noDiscount:false,
@@ -104,7 +104,7 @@ export const dmccPackagePrice = [
   },
   {
     id: 5,
-    image: "/images/qb/shakeHands.jpg",
+    image: "/images/qb/dmcc5.webp",
     link: "business-setup-dubai-mainland",
     startingPrice: "AED 30,951*",
         noDiscount:false,
@@ -128,7 +128,7 @@ export const dmccPackagePrice = [
   },
   {
     id: 6,
-    image: "/images/qb/shakeHands.jpg",
+    image: "/images/qb/dmcc6.webp",
     link: "business-setup-dubai-mainland",
     startingPrice: "AED 34,082*",
         noDiscount:true,
@@ -153,7 +153,7 @@ export const dmccPackagePrice = [
   },
   {
     id: 7,
-    image: "/images/qb/shakeHands.jpg",
+    image: "/images/qb/dmcc7.webp",
     link: "business-setup-dubai-mainland",
     startingPrice: "AED 10,345*",
         noDiscount:true,
@@ -177,7 +177,7 @@ export const dmccPackagePrice = [
   },
   {
     id: 8,
-    image: "/images/qb/shakeHands.jpg",
+    image: "/images/qb/dmcc8.webp",
     link: "business-setup-dubai-mainland",
     startingPrice: "AED 1,925*",
     noDiscount:true,
