@@ -24,7 +24,7 @@ export const freezones2 = [
   },
   {
     href: "/dmcc-freezone",
-    src: "/images/qb/dmcc.jpg",
+    src: "/images/qb/dmcc.webp",
     alt: "freezones",
     title: "DMCC Free Zone",
     current: false,

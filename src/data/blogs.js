@@ -57,7 +57,7 @@ export const blogArticles = [
   },
   {
     id: 2,
-    imageSrc: "/images/qb/dmcc.jpg",
+    imageSrc: "/images/qb/dmcc.webp",
     title: "DMCC Free Zone",
     startingFromPrice: "35,484",
     link: "dmcc-freezone",

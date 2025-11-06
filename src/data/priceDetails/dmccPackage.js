@@ -177,7 +177,7 @@ export const dmccPackagePrice = [
   },
   {
     id: 8,
-    image: "/images/qb/dmcc8.webp",
+    image: "/images/qb/dmcc8.jpeg",
     link: "business-setup-dubai-mainland",
     startingPrice: "AED 1,925*",
     noDiscount:true,
