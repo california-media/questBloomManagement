@@ -162,7 +162,7 @@ const HamriyahFreezone = () => {
                     <img
                       alt=""
                       className="img-custom-anim-left wow"
-                      src="/images/qb/hamariyahFZ.jpg"
+                      src="/images/qb/hamariyahFZ.webp"
                       width={802}
                       height={535}
                     />

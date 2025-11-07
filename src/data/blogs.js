@@ -75,7 +75,7 @@ export const blogArticles = [
   },
   {
     id: 4,
-    imageSrc: "/images/qb/hamariyahFZ.jpg",
+    imageSrc: "/images/qb/hamariyahFZ.webp",
     title: "Hamriyah Free Zone Authority",
     startingFromPrice: "15,300",
     link: "hamriyah-freezone",

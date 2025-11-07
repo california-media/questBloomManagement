@@ -38,7 +38,7 @@ export const freezones2 = [
   },
   {
     href: "/hamriyah-freezone",
-    src: "/images/qb/hamariyahFZ.jpg",
+    src: "/images/qb/hamariyahFZ.webp",
     alt: "freezones",
     title: "Hamriyah FZA",
     current: false,

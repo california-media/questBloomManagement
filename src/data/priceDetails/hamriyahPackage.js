@@ -1,7 +1,7 @@
 export const hamriyahPackagePrice = [
     {
     id: 1,
-    image: "/images/qb/shakeHands.jpg",
+    image: "/images/qb/hamriyah1.webp",
     startingPrice: "AED 15,300*",
     packages: [
       {
@@ -25,7 +25,7 @@ export const hamriyahPackagePrice = [
   },
   {
     id: 2,
-    image: "/images/qb/shakeHands.jpg",
+    image: "/images/qb/hamriyah2.webp",
     startingPrice: "AED 18,000*",
     packages: [
       {
@@ -49,7 +49,7 @@ export const hamriyahPackagePrice = [
   },
   {
     id: 3,
-    image: "/images/qb/shakeHands.jpg",
+    image: "/images/qb/hamriyah3.webp",
     startingPrice: "AED 22,500*",
     packages: [
       {
@@ -74,7 +74,7 @@ export const hamriyahPackagePrice = [
   },
   {
     id: 4,
-    image: "/images/qb/shakeHands.jpg",
+    image: "/images/qb/hamriyah4.webp",
     startingPrice: "AED 31,500*",
     packages: [
       {

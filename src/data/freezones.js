@@ -25,7 +25,7 @@ export const freezones = [
   },
   {
     id: 4,
-    imageSrc: "/images/qb/hamariyahFZ.jpg",
+    imageSrc: "/images/qb/hamariyahFZ.webp",
     title: "Hamriyah Free Zone Authority",
     link: "hamriyah-freezone",
     width: 406,
