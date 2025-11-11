@@ -72,7 +72,7 @@ const HamriyahFreezone = () => {
                         </p>
                       </div>
 
-                       <div className="text-display-2 text_white mb_20 split-text effect-scale">
+                      <div className="text-display-2 text_white mb_20 split-text effect-scale">
                         <span
                           className="fw-bold"
                           style={{
@@ -553,7 +553,7 @@ const HamriyahFreezone = () => {
           </div>
         </div>
       </div> */}
-        <div style={{ background: "#797631" }}>
+      <div style={{ background: "#797631" }}>
         <div className="heading-section text-center mb_20">
           <h3 className="text_white split-text effect-right">
             <div ref={containerRef} style={{ position: "relative", paddingTop: "20px" }}>
@@ -641,77 +641,77 @@ const HamriyahFreezone = () => {
             </SwiperSlide>
           ))}
         </Swiper> */}
-         <Swiper
-                  className="swiper sw-layout mb-0"
-                  loop={true}
-                  autoplay={{
-                    delay: 2000,
-                    disableOnInteraction: false,
-                  }}
-                  modules={[Autoplay]}
-                  initialSlide={1}
-                  centeredSlides
-                  spaceBetween={15}
-                  breakpoints={{
-                    0: { slidesPerView: 1.2 },
-                    575: {
-                      slidesPerView: 1,
-                    },
-                    768: {
-                      slidesPerView: 3.1,
-                      spaceBetween: 20,
-                    },
-                    992: {
-                      slidesPerView: 3.2,
-                      spaceBetween: 72,
-                    },
-                    1200: {
-                      slidesPerView:3.8,
-                      spaceBetween: 72,
-                    },
-                  }}
-                >
-                  {hamriyahFreezone.map((testimonial, index) => (
-                    <SwiperSlide
-                      className="swiper-slide"
-                      key={`${testimonial.id}-${index}`}
-                    >
-                      <div className="testimonial style-4">
-                        <div className="img-style-slider mb_20">
-                          <div
-                            style={{
-                              borderRadius: 35,
-                              width: "auto",
-                              overflow: "hidden",
-                              height: 200
-                            }}
-                          >
-                            <img
-                              className="lazyload"
-                              data-src={testimonial.imageSrc}
-                              alt="testimonial"
-                              src={testimonial.imageSrc}
-                              width={908}
-                              // height={652}
-                              height={200}
-                              style={{ borderRadius: 35 }}
-                            />
-                          </div>
-                        </div>
-                        <div className="content">
-                          <div className="d-flex flex-column">
-                            <h6 className="text_white mb-3 fw-bold" style={{fontSize:"20px"}}>{testimonial.heading}</h6>
-                            <div className="left">
-                              <p className="text-body-2 text_white mb_12">
-                                {testimonial.quote}
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                  ))}
-                </Swiper>
+        <Swiper
+          className="swiper sw-layout mb-0"
+          loop={true}
+          autoplay={{
+            delay: 2000,
+            disableOnInteraction: false,
+          }}
+          modules={[Autoplay]}
+          initialSlide={1}
+          centeredSlides
+          spaceBetween={15}
+          breakpoints={{
+            0: { slidesPerView: 1.2 },
+            575: {
+              slidesPerView: 1,
+            },
+            768: {
+              slidesPerView: 3.1,
+              spaceBetween: 20,
+            },
+            992: {
+              slidesPerView: 3.2,
+              spaceBetween: 72,
+            },
+            1200: {
+              slidesPerView: 3.8,
+              spaceBetween: 72,
+            },
+          }}
+        >
+          {hamriyahFreezone.map((testimonial, index) => (
+            <SwiperSlide
+              className="swiper-slide"
+              key={`${testimonial.id}-${index}`}
+            >
+              <div className="testimonial style-4">
+                <div className="img-style-slider mb_20">
+                  <div
+                    style={{
+                      borderRadius: 35,
+                      width: "auto",
+                      overflow: "hidden",
+                      height: 200
+                    }}
+                  >
+                    <img
+                      className="lazyload"
+                      data-src={testimonial.imageSrc}
+                      alt="testimonial"
+                      src={testimonial.imageSrc}
+                      width={908}
+                      // height={652}
+                      height={200}
+                      style={{ borderRadius: 35 }}
+                    />
+                  </div>
+                </div>
+                <div className="content">
+                  <div className="d-flex flex-column">
+                    <h6 className="text_white mb-3 fw-bold" style={{ fontSize: "20px" }}>{testimonial.heading}</h6>
+                    <div className="left">
+                      <p className="text-body-2 text_white mb_12">
+                        {testimonial.quote}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
       <div className="section-testimonial style-5 pb-0 pt_30">
         <div className="bot">
