@@ -25,7 +25,7 @@ export const ummAlQuwainPackage = [
         ],
       },
     ],
-    title: "PACKAGE I- UAQ LYTE – Commercial/Consultancy",
+    title: "UAQ LYTE – Commercial/Consultancy",
     // description:
     //   "Are you a JLT resident? These specialised packages help turn your business dreams into reality.",
   },
@@ -59,7 +59,7 @@ export const ummAlQuwainPackage = [
         ],
       },
     ],
-    title: "PACKAGE II- UAQ START – Commercial/Consultancy One Visa",
+    title: "UAQ START – Commercial/Consultancy One Visa",
     // description:
     //   "Perfect for entrepreneurs and smaller start-ups, our entry level package provides everything you need to kickstart your business.",
   },
@@ -93,7 +93,7 @@ export const ummAlQuwainPackage = [
         ],
       },
     ],
-    title: "PACKAGE III- UAQ PLUS – Commercial/Consultancy Two Visa",
+    title: "UAQ PLUS – Commercial/Consultancy Two Visa",
     // description:
     //   "Ideal for start-ups and SMEs, Jump Start Package provides additional benefits, including a 24% discount on company setup fees, complimentary access to co-working spaces and one UAE residency visa included as standard.",
   },
@@ -127,7 +127,7 @@ export const ummAlQuwainPackage = [
         ],
       },
     ],
-    title: "PACKAGE IV- UAQ Prime – Commercial/Consultancy Three Visa*Include All Visa Cost",
+    title: "UAQ Prime – Commercial/Consultancy Three Visa",
     // description:
     //   "Grow your Crypto, Blockchain or Web3 Business at DMCC.",
   },
@@ -161,7 +161,7 @@ export const ummAlQuwainPackage = [
         ],
       },
     ],
-    title: "PACKAGE IV- UAQ Max – Commercial/Consultancy Four Visa*Include All Visa Cost",
+    title: "UAQ Max – Commercial/Consultancy Four Visa",
     // description:
     //   "Tailored to support our gaming and e-sports community",
   },
@@ -190,7 +190,7 @@ export const ummAlQuwainPackage = [
         ],
       },
     ],
-    title: "PACKAGE I- UAQ LYTE – General Trading Zero Visa",
+    title: "UAQ LYTE – General Trading Zero Visa",
     // description:
     //   "Grow your AI Business with Set -up your company at DMCC.",
   },
@@ -223,7 +223,7 @@ export const ummAlQuwainPackage = [
         ],
       },
     ],
-    title: "PACKAGE II- UAQ START – General Trading One Visa",
+    title: "UAQ START – General Trading One Visa",
     // description:
     //   "Join our dedicated 10,000 sq ft co-working space catering exclusively for health and fitness professionals",
   },
@@ -256,7 +256,7 @@ export const ummAlQuwainPackage = [
         ],
       },
     ],
-    title: "PACKAGE II- UAQ Plus – General Trading Two Visa",
+    title: "UAQ Plus – General Trading Two Visa",
     // description:
     //   "Become a member of AstroLabs, the region’s leading tech incubator and accelerator",
   },
@@ -289,7 +289,7 @@ export const ummAlQuwainPackage = [
         ],
       },
     ],
-    title: "PACKAGE II- UAQ Prime – General Trading Three Visa",
+    title: "UAQ Prime – General Trading Three Visa",
     // description:
     //   "Become a member of AstroLabs, the region’s leading tech incubator and accelerator",
   },
@@ -322,7 +322,7 @@ export const ummAlQuwainPackage = [
         ],
       },
     ],
-    title: "PACKAGE II- UAQ Max – General Trading Four Visa",
+    title: "UAQ Max – General Trading Four Visa",
     // description:
     //   "Become a member of AstroLabs, the region’s leading tech incubator and accelerator",
   },

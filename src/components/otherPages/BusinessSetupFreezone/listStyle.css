@@ -1,0 +1,10 @@
+.list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
+  gap: 0.5rem 2rem; /* row-gap, column-gap */
+  padding-left: 0; /* optional */
+}
+
+.list li {
+  list-style: none; /* optional: remove default bullet */
+}

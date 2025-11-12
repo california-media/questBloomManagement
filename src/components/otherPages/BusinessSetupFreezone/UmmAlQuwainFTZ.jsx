@@ -12,6 +12,7 @@ import { sharjahAirportFreezone, ummAlQuwainFTZ } from "@/data/sliderData";
 import { Autoplay } from "swiper/modules";
 import VariableProximity from "@/utlis/VariableProximity";
 import { ummAlQuwainPackage } from "@/data/priceDetails/ummAlQuwainPackage";
+import "./listStyle.css"
 
 const metadata = {
   title: "Umm Al Quwain Free Trade Zone",
@@ -228,7 +229,7 @@ const UmmAlQuwainFTZ = () => {
         </div>
       </div> */}
 
-  <div className="heading-section text-center mt_60">
+      <div className="heading-section text-center mt_60">
         <div className="heading-tag d-flex gap_12 mx-auto mb_20 text_mono-dark-8 fw-5">
           <div className="icon">
             <i className="icon-user-question-02" />
@@ -244,7 +245,7 @@ const UmmAlQuwainFTZ = () => {
       </div>
 
 
- <div className="section sw-layout-1 tf-spacing-13 py-0">
+      <div className="section sw-layout-1 tf-spacing-13 py-0">
 
 
         <div className="tf-container">
@@ -261,182 +262,230 @@ const UmmAlQuwainFTZ = () => {
                 />
               </Link>
               <div className="content flex-1" style={{ maxWidth: "100%" }}>
-                <div className="top d-flex align-items-center justify-content-between mb_31">
-                  <span>
-                    <span
-                      className="me-1"
-                      style={{
-                        fontSize: 16,
-                        lineHeight: 1,
-                        fontWeight: 600,
-                        color: "#000",
-                      }}
-                    >
-                      Starts from{" "}
-                    </span>
-                    <span
-                      style={{
-                        fontSize: 25,
-                        lineHeight: 1,
-                        position: "relative",
-                        display: "inline-block",
-                        fontWeight: 700,
-                        color: "#797631",
-                      }}
-                    >
-                      {" "}
-                      {item.startingPrice}
-                    </span>
-                  </span>
-                  <a
-                    href={`/contact-us`}
-                    className="tf-btn"
-                    target="_blank"
-                  >
-                    <span className="icon-arrow-top-right" />
-                    <span className="bg-effect" />
-                  </a>
-                </div>
-                <div className="heading">
-                  <h4 className="mb_15 title">
-                    <div className="link" style={{ color: "#797631" }}>
-                      {item.title}
-                    </div>
-                  </h4>
-                  <p className="text_mono-gray-7 text-body-2 mb-5">
-                    {item.description}
-                  </p>
-                </div>
-                <div className="d-lg-flex gap-4 packagePricing">
-                  {item?.packages?.map((packageDetails, index) => {
+              
+                                
+{item?.packages?.map((packageDetails, index) => {
                     return (
-                      <div key={index} className="light-border mb-4 flex-1">
-                        <div className="mb-5">
-                          <div className=" text_white split-text effect-scale mb-3">
-                            <span
-                              className="fw-bold"
-                              style={{
-                                color: "#797631",
-                                fontSize: 20,
-                                lineHeight: "20px",
-                              }}
-                            >
-                              {packageDetails.heading}
-                            </span>
-                            <div
-                              className="d-sm-flex align-items-center mt-4 flex-wrap"
-                              style={{ gap: "10px" }}
-                            >
-                              <div className="me-4">
+               <>
+                  <div className="top d-flex align-items-center justify-content-between mb_31">
+  
+                    <div
+                      className="d-sm-flex align-items-center mt-4 flex-wrap"
+                      style={{ gap: "10px" }}
+                    >
+                      <div className="me-4">
+                        <span
+                          style={{
+                            fontSize: 15,
+                            lineHeight: "15px",
+                            display: "block",
+                            color: "#000",
+                          }}
+                        >
+                          From Just
+                        </span>
+                        <span
+                          style={{
+                            fontSize: 25,
+                            lineHeight: "25px",
+                            display: "block",
+                            fontWeight: 900,
+                            letterSpacing: 5,
+                            color: "#797631",
+                          }}
+                        >
+                          AED
+                        </span>
+                      </div>
+  
+                      <span
+                        style={{
+                          fontSize: 45,
+                          lineHeight: 1,
+                          position: "relative",
+                          display: "inline-block",
+                          fontWeight: 700,
+                          color: "#797631",
+                        }}
+                      >
+                        {packageDetails.newPrice}
+                        <span
+                          style={{
+                            fontSize: 15,
+                            position: "absolute",
+                            top: 0,
+                            right: -10,
+                          }}
+                        >
+                          *
+                        </span>
+                      </span>
+  
+                      <span
+                        style={{
+                          fontSize: 16,
+                          lineHeight: 1,
+                          alignSelf: "flex-end",
+                          marginBottom: 20,
+                          color: "#000",
+                        }}
+                      >
+                        (Special Offer!)
+                      </span>
+                    </div>
+  
+  
+  
+                    <a
+                      href={`/contact-us`}
+                      className="tf-btn"
+                      target="_blank"
+                    >
+                      <span className="icon-arrow-top-right" />
+                      <span className="bg-effect" />
+                    </a>
+                  </div>
+                  <div className="heading">
+                    <h4 className="mb_15 title">
+                      <div className="link" style={{ color: "#797631" }}>
+                        {item.title}
+                      </div>
+                    </h4>
+                    <p className="text_mono-gray-7 text-body-2 mb-5">
+                      {item.description}
+                    </p>
+                  </div>
+                  <div className="d-lg-flex gap-4 packagePricing">
+  
+                    <div key={index} className="light-border mb-4 flex-1">
+                      <div className="mb-5">
+                        <div className=" text_white split-text effect-scale mb-3">
+                          <span
+                            className="fw-bold"
+                            style={{
+                              color: "#797631",
+                              fontSize: 20,
+                              lineHeight: "20px",
+                            }}
+                          >
+                            {packageDetails.heading}
+                          </span>
+                          {/* <div
+                                className="d-sm-flex align-items-center mt-4 flex-wrap"
+                                style={{ gap: "10px" }}
+                              >
+                                <div className="me-4">
+                                  <span
+                                    style={{
+                                      fontSize: 15,
+                                      lineHeight: "15px",
+                                      display: "block",
+                                      color: "#000",
+                                    }}
+                                  >
+                                    From Just
+                                  </span>
+                                  <span
+                                    style={{
+                                      fontSize: 25,
+                                      lineHeight: "25px",
+                                      display: "block",
+                                      fontWeight: 900,
+                                      letterSpacing: 5,
+                                      color: "#797631",
+                                    }}
+                                  >
+                                    AED
+                                  </span>
+                                </div>
+  
                                 <span
                                   style={{
-                                    fontSize: 15,
-                                    lineHeight: "15px",
-                                    display: "block",
+                                    fontSize: 30,
+                                    lineHeight: 1,
+                                    position: "relative",
+                                    display: "inline-block",
+                                    fontFamily: "Arial",
+                                    fontWeight: 500,
                                     color: "#000",
+                                    textDecoration: "line-through",
                                   }}
                                 >
-                                  From Just
+                                  {packageDetails.oldPrice}
+                                  <span
+                                    style={{
+                                      position: "absolute",
+                                      left: 0,
+                                      right: 0,
+                                      top: "50%",
+                                      height: 2,
+                                      backgroundColor: "#000",
+                                      transform: "translateY(-50%)",
+                                      pointerEvents: "none",
+                                    }}
+                                  />
                                 </span>
                                 <span
                                   style={{
-                                    fontSize: 25,
-                                    lineHeight: "25px",
-                                    display: "block",
-                                    fontWeight: 900,
-                                    letterSpacing: 5,
+                                    fontSize: 45,
+                                    lineHeight: 1,
+                                    position: "relative",
+                                    display: "inline-block",
+                                    fontWeight: 700,
                                     color: "#797631",
                                   }}
                                 >
-                                  AED
+                                  {packageDetails.newPrice}
+                                  <span
+                                    style={{
+                                      fontSize: 15,
+                                      position: "absolute",
+                                      top: 0,
+                                      right: -10,
+                                    }}
+                                  >
+                                    *
+                                  </span>
                                 </span>
-                              </div>
-
-                              <span
-                                style={{
-                                  fontSize: 30,
-                                  lineHeight: 1,
-                                  position: "relative",
-                                  display: "inline-block",
-                                  fontFamily: "Arial",
-                                  fontWeight: 500,
-                                  color: "#000",
-                                  textDecoration: "line-through",
-                                }}
-                              >
-                                {packageDetails.oldPrice}
+  
                                 <span
                                   style={{
-                                    position: "absolute",
-                                    left: 0,
-                                    right: 0,
-                                    top: "50%",
-                                    height: 2,
-                                    backgroundColor: "#000",
-                                    transform: "translateY(-50%)",
-                                    pointerEvents: "none",
-                                  }}
-                                />
-                              </span>
-                              <span
-                                style={{
-                                  fontSize: 45,
-                                  lineHeight: 1,
-                                  position: "relative",
-                                  display: "inline-block",
-                                  fontWeight: 700,
-                                  color: "#797631",
-                                }}
-                              >
-                                {packageDetails.newPrice}
-                                <span
-                                  style={{
-                                    fontSize: 15,
-                                    position: "absolute",
-                                    top: 0,
-                                    right: -10,
+                                    fontSize: 16,
+                                    lineHeight: 1,
+                                    alignSelf: "flex-end",
+                                    marginBottom: 20,
+                                    color: "#000",
                                   }}
                                 >
-                                  *
+                                  (Special Offer!)
                                 </span>
-                              </span>
-
-                              <span
-                                style={{
-                                  fontSize: 16,
-                                  lineHeight: 1,
-                                  alignSelf: "flex-end",
-                                  marginBottom: 20,
-                                  color: "#000",
-                                }}
-                              >
-                                (Special Offer!)
-                              </span>
-                            </div>
-                          </div>
-
-                          <div>
-                            <ul className="list effect-item effect-right effect-3 mt-0">
-                              {packageDetails.featuresInclude.map(
-                                (feature, index) => {
-                                  return (
-                                    <li
-                                      className="text-body-1 text_black d-flex align-items-center mb-2"
-                                      key={index}
-                                    >
-                                      <i className="icon-check-cycle-line me-3" />
-                                      {feature}
-                                    </li>
-                                  );
-                                }
-                              )}
-                            </ul>
-                          </div>
+                              </div> */}
+                        </div>
+  
+                        <div>
+                          <ul className="list effect-item effect-right effect-3 mt-0">
+                            {packageDetails.featuresInclude.map(
+                              (feature, index) => {
+                                return (
+                                  <li
+                                    className="text-body-1 text_black d-flex align-items-center mb-2"
+                                    key={index}
+                                  >
+                                    <i className="icon-check-cycle-line me-3" />
+                                    {feature}
+                                  </li>
+                                );
+                              }
+                            )}
+                          </ul>
                         </div>
                       </div>
-                    );
+                    </div>
+  
+                  </div>
+               </>
+ );
                   })}
-                </div>
               </div>
             </div>
           ))}
