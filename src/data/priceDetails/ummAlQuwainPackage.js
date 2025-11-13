@@ -1,7 +1,7 @@
 export const ummAlQuwainPackage = [
   {
     id: 1,
-    image: "/images/qb/dmcc1.webp",
+    image: "/images/qb/uaq11.webp",
     link: "business-setup-dubai-mainland",
     startingPrice: "AED 5,500*",
    noDiscount: false,
@@ -31,7 +31,7 @@ export const ummAlQuwainPackage = [
   },
   {
     id: 2,
-    image: "/images/qb/dmcc2.webp",
+    image: "/images/qb/uaq2.webp",
     link: "business-setup-dubai-mainland",
     startingPrice: "AED 12,500*",
     noDiscount: false,
@@ -65,7 +65,7 @@ export const ummAlQuwainPackage = [
   },
   {
     id: 3,
-    image: "/images/qb/dmcc3.webp",
+    image: "/images/qb/uaq3.webp",
     link: "business-setup-dubai-mainland",
     startingPrice: "AED 17,500*",
     noDiscount: false,
@@ -99,7 +99,7 @@ export const ummAlQuwainPackage = [
   },
   {
     id: 4,
-    image: "/images/qb/dmcc4.webp",
+    image: "/images/qb/uaq4.webp",
     link: "business-setup-dubai-mainland",
     startingPrice: "AED 22,500*",
     noDiscount: false,
@@ -133,7 +133,7 @@ export const ummAlQuwainPackage = [
   },
   {
     id: 5,
-    image: "/images/qb/dmcc5.webp",
+    image: "/images/qb/uaq5.webp",
     link: "business-setup-dubai-mainland",
     startingPrice: "AED 25,500*",
 
@@ -167,7 +167,7 @@ export const ummAlQuwainPackage = [
   },
   {
     id: 6,
-    image: "/images/qb/dmcc6.webp",
+    image: "/images/qb/uaq6.webp",
     link: "business-setup-dubai-mainland",
     startingPrice: "AED 7,000*",
     packages: [
@@ -196,7 +196,7 @@ export const ummAlQuwainPackage = [
   },
   {
     id: 7,
-    image: "/images/qb/dmcc7.webp",
+    image: "/images/qb/uaq7.webp",
     link: "business-setup-dubai-mainland",
     startingPrice: "AED 15,000*",
     packages: [
@@ -229,7 +229,7 @@ export const ummAlQuwainPackage = [
   },
   {
     id: 8,
-    image: "/images/qb/dmcc8.jpeg",
+    image: "/images/qb/uaq8.webp",
     link: "business-setup-dubai-mainland",
     startingPrice: "AED 20,000*",
     packages: [
@@ -262,7 +262,7 @@ export const ummAlQuwainPackage = [
   },
   {
     id: 9,
-    image: "/images/qb/dmcc8.jpeg",
+    image: "/images/qb/uaq9.webp",
     link: "business-setup-dubai-mainland",
     startingPrice: "AED 24,000*",
     packages: [
@@ -295,7 +295,7 @@ export const ummAlQuwainPackage = [
   },
   {
     id: 10,
-    image: "/images/qb/dmcc8.jpeg",
+    image: "/images/qb/uaq10.webp",
     link: "business-setup-dubai-mainland",
     startingPrice: "AED 24,000*",
     packages: [

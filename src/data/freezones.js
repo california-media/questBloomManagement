@@ -41,7 +41,7 @@ export const freezones = [
   },
   {
     id: 6,
-    imageSrc: "/images/qb/ummalquwainFTZ.jpeg",
+    imageSrc: "/images/qb/uaq1.webp",
     title: "Umm Al Quwain Free Trade Zone",
     link: "umm-al-quwain-ftz",
     width: 406,

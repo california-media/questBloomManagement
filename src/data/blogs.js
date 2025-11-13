@@ -93,7 +93,7 @@ export const blogArticles = [
   },
   {
     id: 6,
-    imageSrc: "/images/qb/ummalquwainFTZ.jpeg",
+    imageSrc: "/images/qb/uaq1.webp",
     title: "Umm Al Quwain Free Trade Zone",
     startingFromPrice: "5,500",
     link: "umm-al-quwain-ftz",

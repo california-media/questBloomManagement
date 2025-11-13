@@ -52,7 +52,7 @@ export const freezones2 = [
   },
   {
     href: "/umm-al-quwain-ftz",
-    src: "/images/qb/ummalquwainFTZ.jpeg",
+    src: "/images/qb/uaq1.webp",
     alt: "freezones",
     title: "Umm Al Quwain FTZ",
     current: false,

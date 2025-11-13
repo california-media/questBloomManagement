@@ -36,7 +36,7 @@ const UmmAlQuwainFTZ = () => {
                       <h1 className="title split-text effect-right  mb-5">
                         <div ref={containerRef} style={{ position: "relative" }}>
                           <VariableProximity
-                            label="Umm Al Quwain Free Trade Zone (UAQ FTZ)"
+                            label="Umm Al Quwain FTZ (UAQ FTZ)"
                             className="variable-proximity"
                             fromFontVariationSettings="'wght' 400, 'opsz' 9"
                             toFontVariationSettings="'wght' 1000, 'opsz' 40"
@@ -156,7 +156,7 @@ const UmmAlQuwainFTZ = () => {
                     <img
                       alt=""
                       className="img-custom-anim-left wow"
-                      src="/images/qb/ummalquwainFTZ.jpeg"
+                      src="/images/qb/uaq1.webp"
                       width={802}
                       height={535}
                     />
