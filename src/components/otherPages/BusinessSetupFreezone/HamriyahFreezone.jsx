@@ -25,7 +25,7 @@ const HamriyahFreezone = () => {
       <div className="wrap-page-header">
         <Header1 />
 
-        <div className="section-process style-1 tf-spacing-5 pb-0">
+        <div className="section-process style-1 pt_50 pb-0">
           <div className="tf-container">
             <div className="wrap border-0 pb-0">
               <div className="row">
